@@ -1,0 +1,117 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin-left: 0;
+}
+#navbar ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+#navbar li {
+    font-size: small;
+    display: inline-block;
+    line-height: 15px;
+    width: fit-content;
+    padding: 8px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+#bottom-nav ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(150, 150, 150);
+}
+#bottom-nav li {
+    font-size: smaller;
+    display: inline-block;
+    line-height: 25px;
+    width: fit-content;
+    padding: 8px;
+}
+#logo {
+    display: flex;
+    flex: auto;
+    height: 200;
+    width: 500;
+    max-height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: auto;
+    border: hidden;
+    border-radius: 25px;
+}
+#logo:hover {
+    border: 1px solid yellow;
+    box-shadow: yellow;
+}
+#searchbar {
+    display: flex;
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    max-width: 500px;
+    height: 44px;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    border-radius: 20px;
+}
+#searchbar:hover {
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+#button-area {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#google-search, #feeling-lucky {
+    display: inline-block;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    border-radius: 3px;
+}
+#google-search:hover, #feeling-lucky:hover {
+    box-shadow: grey;
+    text-transform: uppercase;
+}
+.btn-sign-in {
+    display: inline-block;
+    width: 5em;
+    text-decoration: none;
+    text-align: center;
+    background: #4387fd;
+    color: white;
+    border-radius: 2px;
+}
+.btn-sign-in:hover {
+    text-transform: uppercase;
+    box-shadow: darkblue;
+}
+.btn {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+.btn:hover {
+    text-decoration: underline;
+    color: maroon;
+}
+}
